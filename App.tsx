@@ -13,6 +13,8 @@ import {
 
 import Landing from "./src/pages/Landing";
 
+import AppStack from "./src/routes/AppStack";
+
 export default function App() {
   let [fontsLoaded] = useFonts({
     Archivo_400Regular,
@@ -26,7 +28,7 @@ export default function App() {
   } else {
     return (
       <>
-        <Landing />
+        <AppStack />
         <StatusBar style="light" />
       </>
     );
