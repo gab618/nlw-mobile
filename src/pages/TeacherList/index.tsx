@@ -1,10 +1,10 @@
 import React from "react";
 import { View } from "react-native";
 
-// import styles from './styles';
+import styles from "./styles";
 
 const TeacherList: React.FC = () => {
-  return <View />;
+  return <View style={styles.container}></View>;
 };
 
 export default TeacherList;
